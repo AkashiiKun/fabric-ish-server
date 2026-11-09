@@ -1,6 +1,6 @@
-name = "Fabric Holiday 25"
+name = "Fabric Server"
 author = "Louis, Fabricord"
-version = "0.0.3"
+version = "0.0.1"
 pack-format = "packwiz:1.1.0"
 
 [index]
