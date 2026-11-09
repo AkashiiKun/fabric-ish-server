@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:java21
+    image: itzg/minecraft-server:${MC_IMAGE_TAG:-java25}
     container_name: mc
     restart: unless-stopped
     tty: true
