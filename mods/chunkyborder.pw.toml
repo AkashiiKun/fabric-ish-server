@@ -1,0 +1,13 @@
+filename = 'ChunkyBorder-Fabric-1.2.75.jar'
+name = 'Chunky Border'
+side = 'both'
+
+[download]
+hash = '71a95ceb9e97d4850cec9e1f143bda3855f947b03c7e8c3393f98d32675996eda77db14edb36c559d5ba4c410ba1ac2708af83eb633992710861dcf084c81284'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/s86X568j/versions/IUB4hZvg/ChunkyBorder-Fabric-1.2.75.jar'
+
+[update.modrinth]
+mod-id = 's86X568j'
+version = 'IUB4hZvg'

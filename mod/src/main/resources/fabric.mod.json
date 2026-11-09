@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "holiday",
+	"version": "${version}",
+	"name": "Holiday",
+	"description": "Server-side and client-side code for the Holiday-ish pack.",
+	"authors": [
+		"zOnlyKroks"
+	],
+	"contact": {
+		"homepage": "https://github.com/zOnlyKroks/fabric-holiday-ish-server",
+		"sources": "https://github.com/zOnlyKroks/fabric-holiday-ish-server"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/holiday/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"holiday.HolidayMod"
+		],
+		"client": [
+			"holiday.client.HolidayModClient"
+		]
+	},
+	"mixins": [
+		"holiday.mixins.json",
+		{
+			"config": "holiday.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
