@@ -1,0 +1,13 @@
+filename = 'bluemap-5.29-fabric.jar'
+name = 'BlueMap'
+side = 'server'
+
+[download]
+hash = '032a96971437e43a3722d8d6c026aeb9837117e1a56521d017a68fce8bb5630ceffd98454672b9d6c589a1008fcd2ab4cd48f4af8fadf08755313b1e326bedb1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/swbUV1cr/versions/SX74rxzP/bluemap-5.29-fabric.jar'
+
+[update.modrinth]
+mod-id = 'swbUV1cr'
+version = 'SX74rxzP'
