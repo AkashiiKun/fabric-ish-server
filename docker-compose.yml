@@ -9,7 +9,7 @@ services:
     ports:
       - "25565:25565"
       # BlueMap web map
-      - "${BLUEMAP_PORT:-8100}:8100"
+      - "${BLUEMAP_BIND:-0.0.0.0}:${BLUEMAP_PORT:-8100}:8100"
     # Anything in .env is also passed through, so any itzg variable
     # (SEED, VIEW_DISTANCE, PVP, SPAWN_PROTECTION, MODE, ...) can just be added there.
     # https://docker-minecraft-server.readthedocs.io/en/latest/variables/
@@ -68,3 +68,24 @@ services:
       - ./data:/data
       - ./backups:/backups
       - /var/run/docker.sock:/var/run/docker.sock
+
+  # Optional HTTPS for the BlueMap web map: `docker compose --profile https up -d`
+  # Needs MAP_DOMAIN in .env (DNS A/AAAA record pointing at this server, ports 80 + 443 open).
+  caddy:
+    image: caddy:2
+    container_name: mc-caddy
+    profiles: ["https"]
+    restart: unless-stopped
+    depends_on:
+      - mc
+    environment:
+      MAP_DOMAIN: "${MAP_DOMAIN:?set MAP_DOMAIN in .env}"
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./proxy/Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy_data:/data
+
+volumes:
+  caddy_data:
