@@ -1,0 +1,46 @@
+services:
+  mc:
+    image: itzg/minecraft-server:java21
+    container_name: mc
+    restart: unless-stopped
+    tty: true
+    stdin_open: true
+    stop_grace_period: 60s
+    ports:
+      - "25565:25565"
+    environment:
+      EULA: "TRUE"
+      TYPE: FABRIC
+      VERSION: "${MC_VERSION:-1.21.1}"
+      # Pulled from the repo at every container start; packwiz-installer
+      # only downloads mods that changed and removes mods that were deleted.
+      PACKWIZ_URL: "${PACK_URL}"
+      MEMORY: "${MC_MEMORY:-4G}"
+      MOTD: "${MC_MOTD:-Holiday-ish server}"
+      MAX_PLAYERS: "${MC_MAX_PLAYERS:-10}"
+      DIFFICULTY: "${MC_DIFFICULTY:-normal}"
+      ENABLE_WHITELIST: "${MC_WHITELIST:-false}"
+      OPS: "${MC_OPS:-}"
+      ENABLE_RCON: "true"
+      RCON_PASSWORD: "${RCON_PASSWORD:?set RCON_PASSWORD in .env}"
+      TZ: "${TZ:-Europe/Berlin}"
+    volumes:
+      - ./data:/data
+
+  # Watches pack.toml in the repo; when it changes it warns players,
+  # then restarts `mc`, which re-runs packwiz and pulls the new mods.
+  updater:
+    image: docker:27-cli
+    container_name: mc-updater
+    restart: unless-stopped
+    depends_on:
+      - mc
+    environment:
+      PACK_URL: "${PACK_URL}"
+      POLL_SECONDS: "${UPDATE_POLL_SECONDS:-300}"
+      WARN_SECONDS: "${UPDATE_WARN_SECONDS:-60}"
+      MC_CONTAINER: mc
+    entrypoint: ["/bin/sh", "/watch.sh"]
+    volumes:
+      - ./updater/watch.sh:/watch.sh:ro
+      - /var/run/docker.sock:/var/run/docker.sock
