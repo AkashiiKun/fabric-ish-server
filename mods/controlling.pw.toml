@@ -1,0 +1,21 @@
+filename = 'Controlling-fabric-26.3-26.3.4.jar'
+name = 'Controlling'
+side = 'client'
+
+[download]
+hash = 'a3b4d3f5d764421c247c61251a0ee60a612dd2c2df35a998341b910f2e502a514b20aad3cb47df0a202a62e84edaf512bb27331406553e6ea9203410e9c04751'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xv94TkTM/versions/V6AbRm67/Controlling-fabric-26.3-26.3.4.jar'
+
+[update.modrinth]
+mod-id = 'xv94TkTM'
+version = 'V6AbRm67'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'fuuu3xnx'
+type = 'REQUIRED'

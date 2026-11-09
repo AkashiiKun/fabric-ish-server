@@ -15,34 +15,32 @@ services:
       - .env
     environment:
       EULA: "TRUE"
-      ENFORCE_WHITELIST: "true"
-      OVERRIDE_OPS: "true"
       TYPE: FABRIC
-      VERSION: "${MC_VERSION:-1.21.1}"
-      # Pulled from the repo at every container start; packwiz-installer
-      # only downloads mods that changed and removes mods that were deleted.
-      PACKWIZ_URL: "${PACK_URL}"
+      VERSION: "${MC_VERSION:-26.3}"
+      FABRIC_LOADER_VERSION: "${FABRIC_LOADER_VERSION:-0.20.1}"
+      # packwiz-installer syncs mods from the upstream pack on every start.
+      # ./revert.sh sets PACKWIZ_URL_OVERRIDE (empty) in .env to freeze mods while
+      # a snapshot is restored; an empty value disables the sync.
+      PACKWIZ_URL: "${PACKWIZ_URL_OVERRIDE-${PACK_URL}}"
       MEMORY: "${MC_MEMORY:-4G}"
       MOTD: "${MC_MOTD:-Holiday-ish server}"
       MAX_PLAYERS: "${MC_MAX_PLAYERS:-10}"
       DIFFICULTY: "${MC_DIFFICULTY:-normal}"
-      ENABLE_WHITELIST: "${MC_WHITELIST:-false}"
+      ENABLE_WHITELIST: "${MC_WHITELIST:-true}"
+      ENFORCE_WHITELIST: "true"
       OPS: "${MC_OPS:-}"
       ENABLE_RCON: "true"
       RCON_PASSWORD: "${RCON_PASSWORD:?set RCON_PASSWORD in .env}"
       TZ: "${TZ:-Europe/Berlin}"
     volumes:
       - ./data:/data
-      # Files here are copied into /data on every start (e.g. server-config/config/foo.toml
-      # -> data/config/foo.toml). Use it for server-only config; put config that
-      # clients need too into pack/ instead.
+      # Server-only config copied into /data on every start (server-config/config/x.toml -> data/config/x.toml)
       - ./server-config:/config:ro
-      # Mounted directly (read-only) so it is always exactly the file from the repo.
-      # In-game `whitelist add` will fail; edit the file instead.
-      - ./server-config/whitelist.json:/data/whitelist.json:ro
 
-  # Watches pack.toml in the repo; when it changes it warns players,
-  # then restarts `mc`, which re-runs packwiz and pulls the new mods.
+  # Does three jobs (see updater/watch.sh):
+  #  1. pulls whitelist.json from GitHub and applies it live (no restart)
+  #  2. when the upstream pack changes: warns players, snapshots data/ into backups/, restarts mc
+  #  3. stays out of the way while a revert is active (backups/PINNED exists)
   updater:
     image: docker:27-cli
     container_name: mc-updater
@@ -51,10 +49,14 @@ services:
       - mc
     environment:
       PACK_URL: "${PACK_URL}"
+      WHITELIST_URL: "${WHITELIST_URL:-}"
       POLL_SECONDS: "${UPDATE_POLL_SECONDS:-300}"
       WARN_SECONDS: "${UPDATE_WARN_SECONDS:-60}"
+      BACKUP_KEEP: "${BACKUP_KEEP:-5}"
       MC_CONTAINER: mc
     entrypoint: ["/bin/sh", "/watch.sh"]
     volumes:
       - ./updater/watch.sh:/watch.sh:ro
+      - ./data:/data
+      - ./backups:/backups
       - /var/run/docker.sock:/var/run/docker.sock

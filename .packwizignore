@@ -1,0 +1,15 @@
+/README.md
+*.sh
+.github/
+mod/
+build/
+
+# our docker/server additions (not part of the modpack)
+docker-compose.yml
+updater/
+server-config/
+revert.sh
+.env.example
+backups/
+data/
+.gitkeep

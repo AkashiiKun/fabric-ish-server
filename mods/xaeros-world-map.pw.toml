@@ -1,0 +1,21 @@
+filename = 'xaeroworldmap-fabric-26.3-1.47.2.jar'
+name = "Xaero's World Map"
+side = 'both'
+
+[download]
+hash = 'cac3c0fb3121ddebc7f073571dcbce5f1811ca001ea94ef03c1da667e8a3413144f570c4b593f632358eff98fa138631ed7907fd1bd5da7d43c037ea782125fb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/NcUtCpym/versions/VM8lNSSM/xaeroworldmap-fabric-26.3-1.47.2.jar'
+
+[update.modrinth]
+mod-id = 'NcUtCpym'
+version = 'VM8lNSSM'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'gF3BGWvG'
+type = 'OPTIONAL'

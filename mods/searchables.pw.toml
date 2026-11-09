@@ -1,0 +1,17 @@
+filename = 'Searchables-fabric-26.3-1.0.3.jar'
+name = 'Searchables'
+side = 'client'
+
+[download]
+hash = '70d4b55990beaa0a5902d8d1b92243430a0e3abaab177dd2273c0996fba6eac566f727802f78be3a9498feac71f7e83b500d0844ae30f33666cf90ee7f167b35'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/fuuu3xnx/versions/wV79bLRS/Searchables-fabric-26.3-1.0.3.jar'
+
+[update.modrinth]
+mod-id = 'fuuu3xnx'
+version = 'wV79bLRS'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'P7dR8mSH'
+type = 'REQUIRED'

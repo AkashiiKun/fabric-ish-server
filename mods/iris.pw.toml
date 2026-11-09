@@ -1,0 +1,18 @@
+filename = 'iris-fabric-1.11.7+mc26.3.jar'
+name = 'Iris Shaders'
+side = 'client'
+
+[download]
+hash = 'd8d3312f77fc52a48e4a6cd836fda33669bdebcb4de0b8c0d30adc808b287330a533e0baef355cc1ce6336a26851d9775369a802a4666b7b7a6266af20088f42'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YL57xq9U/versions/vTN4NRGW/iris-fabric-1.11.7%2Bmc26.3.jar'
+
+[update.modrinth]
+mod-id = 'YL57xq9U'
+version = 'vTN4NRGW'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'AANobbMI'
+type = 'REQUIRED'
+version = 'bAZQdGpg'

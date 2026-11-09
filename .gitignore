@@ -1,3 +1,14 @@
-.env
-data/
 *.mrpack
+*.mrpack
+.DS_Store
+.env
+/.idea/
+backups/
+build/
+data/
+mod/.gradle/
+mod/.idea/
+mod/build/
+mod/run/
+mods/holiday-server-mod-*.jar
+out/
