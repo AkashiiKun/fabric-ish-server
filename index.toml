@@ -9,6 +9,10 @@ file = "mods/architectury-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/biomes-o-plenty.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bluemap.pw.toml"
 metafile = true
 
@@ -57,6 +61,14 @@ file = "mods/ferrite-core.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/forge-config-api-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/glitchcore.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
 metafile = true
 
@@ -65,7 +77,19 @@ file = "mods/krypton.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lambdynamiclights.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/lithium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/lithostitched.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/magnum-torch.pw.toml"
 metafile = true
 
 [[files]]
@@ -73,7 +97,15 @@ file = "mods/modmenu.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/puzzles-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -86,6 +118,34 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/terrablender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/terralith.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/travelersbackpack.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/voxy-extra.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/voxy-server-side.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
 metafile = true
 
 [[files]]
