@@ -20,3 +20,5 @@ cd build
 mkdir -p ../out
 packwiz modrinth export -o ../out/holiday-server-pack.mrpack
 packwiz refresh --build
+# marks every deployment (written after refresh so it is not part of the pack index)
+echo "${GITHUB_SHA:-$(date +%s)}" > deploy-version.txt

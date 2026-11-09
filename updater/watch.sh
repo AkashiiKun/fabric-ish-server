@@ -8,7 +8,16 @@ apk add --no-cache curl jq >/dev/null
 
 rcon() { docker exec "$MC_CONTAINER" rcon-cli "$@"; }
 
-pack_hash() { curl -fsSL --max-time 30 "$PACK_URL" | sha256sum | cut -d' ' -f1; }
+# Hash of pack.toml plus deploy-version.txt (the commit that was deployed). pack.toml alone
+# is not enough: with no-internal-hashes its index hash only changes when mods are added/removed,
+# not when a mod is updated or our own mod jar changes. Returns non-zero if pack.toml can't be fetched.
+pack_hash() {
+  t=$(mktemp)
+  curl -fsSL --max-time 30 "$PACK_URL" -o "$t" || { rm -f "$t"; return 1; }
+  curl -fsSL --max-time 30 "${PACK_URL%/*}/deploy-version.txt" >> "$t" 2>/dev/null || true
+  sha256sum "$t" | cut -d' ' -f1
+  rm -f "$t"
+}
 
 sync_whitelist() {
   [ -n "$WHITELIST_URL" ] || return 0
