@@ -17,6 +17,7 @@ services:
       - .env
     environment:
       EULA: "TRUE"
+      MAX_TICK_TIME: "-1"
       TYPE: FABRIC
       VERSION: "${MC_VERSION:-26.3}"
       FABRIC_LOADER_VERSION: "${FABRIC_LOADER_VERSION:-0.20.1}"
