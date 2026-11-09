@@ -50,6 +50,7 @@ services:
     environment:
       PACK_URL: "${PACK_URL}"
       WHITELIST_URL: "${WHITELIST_URL:-}"
+      OPS_URL: "${OPS_URL:-}"
       POLL_SECONDS: "${UPDATE_POLL_SECONDS:-300}"
       WARN_SECONDS: "${UPDATE_WARN_SECONDS:-60}"
       BACKUP_KEEP: "${BACKUP_KEEP:-5}"
