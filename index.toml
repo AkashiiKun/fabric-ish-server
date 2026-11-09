@@ -5,7 +5,31 @@ file = "mods/3dskinlayers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/advanced-netherite.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/alternate-current.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/architectury-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/badoptimizations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/beautify-refabricated.pw.toml"
 metafile = true
 
 [[files]]
@@ -21,6 +45,14 @@ file = "mods/c2me-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/chat-heads.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chefs-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chunky.pw.toml"
 metafile = true
 
@@ -33,7 +65,27 @@ file = "mods/cloth-config.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/continuity.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/crash-assistant.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/crate-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cubes-without-borders.pw.toml"
 metafile = true
 
 [[files]]
@@ -41,7 +93,27 @@ file = "mods/debugify.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/delight-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/easters-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/elytra-trims.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entity-model-features.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/entityculling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/entitytexturefeatures.pw.toml"
 metafile = true
 
 [[files]]
@@ -50,6 +122,14 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/fallingleaves.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/farmers-delight-refabricated.pw.toml"
 metafile = true
 
 [[files]]
@@ -65,11 +145,27 @@ file = "mods/forge-config-api-port.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/glitchcore.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/iris.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jade.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/jamlib.pw.toml"
 metafile = true
 
 [[files]]
@@ -89,6 +185,42 @@ file = "mods/lithostitched.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/macaws-doors.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-fences-and-walls.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-furniture.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-holidays.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-paintings.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-roofs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-stairs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-trapdoors.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/macaws-windows.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/magnum-torch.pw.toml"
 metafile = true
 
@@ -97,11 +229,51 @@ file = "mods/modmenu.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/more-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mouse-tweaks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mru.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/my-nethers-delight-refabricated.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/naturalist.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/netherportalfix.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-reports.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/packet-fixer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/particle-core.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/patpat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/promenade.pw.toml"
 metafile = true
 
 [[files]]
@@ -113,7 +285,23 @@ file = "mods/rei.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rightclickharvest.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rustic-delight.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/searchables.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/shogi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/snow.pw.toml"
 metafile = true
 
 [[files]]
@@ -122,6 +310,22 @@ metafile = true
 
 [[files]]
 file = "mods/spark.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/spawn-animations.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/stoneworks.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/storage-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tectonic.pw.toml"
 metafile = true
 
 [[files]]
@@ -137,6 +341,34 @@ file = "mods/travelersbackpack.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/trek.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ubes-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-bone-meal.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/veinminer-client.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/veinminer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/visual-workbench.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/visuality.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/voxy-extra.pw.toml"
 metafile = true
 
@@ -146,6 +378,10 @@ metafile = true
 
 [[files]]
 file = "mods/voxy.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/waystones.pw.toml"
 metafile = true
 
 [[files]]

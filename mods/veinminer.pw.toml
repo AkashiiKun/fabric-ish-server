@@ -1,0 +1,13 @@
+filename = 'veinminer-fabric-2.13.0.jar'
+name = 'VeinMiner'
+side = 'both'
+
+[download]
+hash = '6225e092567ec578834585f8f95bc63848718e2b31757982934c69b5dd39c3b4f5c5ee2a95447184a476435bd5ce1fb60df6289d99c06562e337de9e6801ac52'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/OhduvhIc/versions/QMYktnGo/veinminer-fabric-2.13.0.jar'
+
+[update.modrinth]
+mod-id = 'OhduvhIc'
+version = 'QMYktnGo'

@@ -1,0 +1,13 @@
+filename = 'PatPat-1.3.2+26.3+fabric.jar'
+name = 'PatPat [Mod & Plugin]'
+side = 'both'
+
+[download]
+hash = 'dce5f88145093640ef7fe159e1ff24d2860e07ff4b3f549839948440bce8ff7ab0bb909c2f21baac86585489fd15962176750ce630f324a27225a171d3f5ed33'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/dw7LChq9/versions/WVRk2pJA/PatPat-1.3.2%2B26.3%2Bfabric.jar'
+
+[update.modrinth]
+mod-id = 'dw7LChq9'
+version = 'WVRk2pJA'

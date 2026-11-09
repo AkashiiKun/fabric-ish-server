@@ -1,5 +1,5 @@
 filename = 'travelersbackpack-fabric-26.3-11.4.3.jar'
-name = "Traveler's Backpack"
+name = 'Travelers Backpack'
 side = 'both'
 
 [download]

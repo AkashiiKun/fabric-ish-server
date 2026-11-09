@@ -12,3 +12,4 @@ mod/build/
 mod/run/
 mods/holiday-server-mod-*.jar
 out/
+docker-compose.override.yml

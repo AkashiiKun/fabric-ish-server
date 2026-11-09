@@ -1,5 +1,5 @@
 filename = 'xaerominimap-fabric-26.3-26.6.2.jar'
-name = "Xaero's Minimap"
+name = 'Xaeros Minimap'
 side = 'both'
 
 [download]
