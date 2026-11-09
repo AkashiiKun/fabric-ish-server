@@ -11,7 +11,3 @@ url = 'https://cdn.modrinth.com/data/zV5r3pPn/versions/gjM2TO0L/skinlayers3d-fab
 [update.modrinth]
 mod-id = 'zV5r3pPn'
 version = 'gjM2TO0L'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'

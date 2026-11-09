@@ -11,11 +11,3 @@ url = 'https://cdn.modrinth.com/data/NcUtCpym/versions/VM8lNSSM/xaeroworldmap-fa
 [update.modrinth]
 mod-id = 'NcUtCpym'
 version = 'VM8lNSSM'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'gF3BGWvG'
-type = 'OPTIONAL'

@@ -11,23 +11,3 @@ url = 'https://cdn.modrinth.com/data/w7ThoJFB/versions/RUBpNu00/zoomify-2.17.0%2
 [update.modrinth]
 mod-id = 'w7ThoJFB'
 version = 'RUBpNu00'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'mOgUt4GM'
-type = 'OPTIONAL'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1vrSzlao'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'Ha28R6CL'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = '1eAoo2KR'
-type = 'REQUIRED'

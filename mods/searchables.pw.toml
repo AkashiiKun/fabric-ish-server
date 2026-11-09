@@ -11,7 +11,3 @@ url = 'https://cdn.modrinth.com/data/fuuu3xnx/versions/wV79bLRS/Searchables-fabr
 [update.modrinth]
 mod-id = 'fuuu3xnx'
 version = 'wV79bLRS'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'

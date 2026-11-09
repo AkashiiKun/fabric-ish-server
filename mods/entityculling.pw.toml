@@ -11,7 +11,3 @@ url = 'https://cdn.modrinth.com/data/NNAgCjsB/versions/X1g3VhTx/entityculling-fa
 [update.modrinth]
 mod-id = 'NNAgCjsB'
 version = 'X1g3VhTx'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'

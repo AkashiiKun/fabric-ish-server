@@ -11,7 +11,3 @@ url = 'https://cdn.modrinth.com/data/lhGA9TYQ/versions/1pMaB6So/architectury-fab
 [update.modrinth]
 mod-id = 'lhGA9TYQ'
 version = '1pMaB6So'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'

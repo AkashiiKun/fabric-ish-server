@@ -11,11 +11,3 @@ url = 'https://cdn.modrinth.com/data/xv94TkTM/versions/V6AbRm67/Controlling-fabr
 [update.modrinth]
 mod-id = 'xv94TkTM'
 version = 'V6AbRm67'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'fuuu3xnx'
-type = 'REQUIRED'

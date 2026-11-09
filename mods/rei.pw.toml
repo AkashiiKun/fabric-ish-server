@@ -11,15 +11,3 @@ url = 'https://cdn.modrinth.com/data/nfn13YXA/versions/rKsAE6bX/RoughlyEnoughIte
 [update.modrinth]
 mod-id = 'nfn13YXA'
 version = 'rKsAE6bX'
-
-[[x-prismlauncher-dependencies]]
-addonId = '9s6osm5g'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'lhGA9TYQ'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'

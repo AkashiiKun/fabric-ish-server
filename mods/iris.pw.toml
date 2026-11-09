@@ -11,8 +11,3 @@ url = 'https://cdn.modrinth.com/data/YL57xq9U/versions/vTN4NRGW/iris-fabric-1.11
 [update.modrinth]
 mod-id = 'YL57xq9U'
 version = 'vTN4NRGW'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'AANobbMI'
-type = 'REQUIRED'
-version = 'bAZQdGpg'

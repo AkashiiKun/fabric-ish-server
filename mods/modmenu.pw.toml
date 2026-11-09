@@ -11,11 +11,3 @@ url = 'https://cdn.modrinth.com/data/mOgUt4GM/versions/kyy7dbrZ/modmenu-21.0.0.j
 [update.modrinth]
 mod-id = 'mOgUt4GM'
 version = 'kyy7dbrZ'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'eXts2L7r'
-type = 'REQUIRED'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'

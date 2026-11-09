@@ -11,7 +11,3 @@ url = 'https://cdn.modrinth.com/data/1eAoo2KR/versions/s9SjoFu1/yet_another_conf
 [update.modrinth]
 mod-id = '1eAoo2KR'
 version = 's9SjoFu1'
-
-[[x-prismlauncher-dependencies]]
-addonId = 'P7dR8mSH'
-type = 'REQUIRED'
