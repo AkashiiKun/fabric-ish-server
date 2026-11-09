@@ -17,6 +17,10 @@ services:
       - .env
     environment:
       EULA: "TRUE"
+      # Files from ./server-config always replace the ones in data/ on start, so the repo
+      # is the source of truth (otherwise mod-generated defaults, e.g. BlueMap's
+      # core.conf, win because they are newer).
+      SYNC_SKIP_NEWER_IN_DESTINATION: "false"
       TYPE: FABRIC
       VERSION: "${MC_VERSION:-26.3}"
       FABRIC_LOADER_VERSION: "${FABRIC_LOADER_VERSION:-0.20.1}"
