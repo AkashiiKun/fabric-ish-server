@@ -17,10 +17,6 @@ services:
       - .env
     environment:
       EULA: "TRUE"
-      # Files from ./server-config always replace the ones in data/ on start, so the repo
-      # is the source of truth (otherwise mod-generated defaults, e.g. BlueMap's
-      # core.conf, win because they are newer).
-      SYNC_SKIP_NEWER_IN_DESTINATION: "false"
       TYPE: FABRIC
       VERSION: "${MC_VERSION:-26.3}"
       FABRIC_LOADER_VERSION: "${FABRIC_LOADER_VERSION:-0.20.1}"
@@ -40,8 +36,12 @@ services:
       TZ: "${TZ:-Europe/Berlin}"
     volumes:
       - ./data:/data
-      # Server-only config copied into /data on every start (server-config/config/x.toml -> data/config/x.toml)
-      - ./server-config:/config:ro
+      # Server config files from the repo, mounted read-only one by one: the container always
+      # sees exactly the repo version, nothing is copied or merged. (whitelist.json and
+      # ops.json are written by the updater from WHITELIST_URL / OPS_URL instead.)
+      - ./server-config/config/chunkyborder/borders.json:/data/config/chunkyborder/borders.json:ro
+      - ./server-config/config/bluemap/core.conf:/data/config/bluemap/core.conf:ro
+      - ./server-config/config/bluemap/webserver.conf:/data/config/bluemap/webserver.conf:ro
 
   # Does three jobs (see updater/watch.sh):
   #  1. pulls whitelist.json from GitHub and applies it live (no restart)
