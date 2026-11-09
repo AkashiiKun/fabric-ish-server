@@ -8,6 +8,8 @@ on:
 jobs:
   build:
     runs-on: ubuntu-24.04
+    permissions:
+      contents: write
     steps:
       - name: Checkout
         uses: actions/checkout@v6.0.1
@@ -33,6 +35,16 @@ jobs:
         with:
           name: artifacts
           path: out
+      - name: Publish rolling "latest" release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          VERSION=$(sed -n 's/^version = "\(.*\)"/\1/p' pack.toml | head -1)
+          cp out/holiday-server-pack.mrpack out/modpack.mrpack
+          gh release delete latest --cleanup-tag -y || true
+          gh release create latest out/modpack.mrpack \
+            --title "Latest modpack (v${VERSION})" \
+            --notes "Built from ${GITHUB_SHA}. Import modpack.mrpack into Prism Launcher."
       - name: Upload Pages Artifacts
         uses: actions/upload-pages-artifact@v4.0.0
         id: deployment
