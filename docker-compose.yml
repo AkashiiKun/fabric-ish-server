@@ -15,12 +15,8 @@ services:
       - .env
     environment:
       EULA: "TRUE"
-      WHITELIST: "${MC_WHITE_LIST:-}"
       ENFORCE_WHITELIST: "true"
-      OVERRIDE_WHITELIST: "true"
       OVERRIDE_OPS: "true"
-      # let files from ./server-config overwrite newer ones in data/ (e.g. whitelist.json)
-      SYNC_SKIP_NEWER_IN_DESTINATION: "false"
       TYPE: FABRIC
       VERSION: "${MC_VERSION:-1.21.1}"
       # Pulled from the repo at every container start; packwiz-installer
@@ -41,6 +37,9 @@ services:
       # -> data/config/foo.toml). Use it for server-only config; put config that
       # clients need too into pack/ instead.
       - ./server-config:/config:ro
+      # Mounted directly (read-only) so it is always exactly the file from the repo.
+      # In-game `whitelist add` will fail; edit the file instead.
+      - ./server-config/whitelist.json:/data/whitelist.json:ro
 
   # Watches pack.toml in the repo; when it changes it warns players,
   # then restarts `mc`, which re-runs packwiz and pulls the new mods.
