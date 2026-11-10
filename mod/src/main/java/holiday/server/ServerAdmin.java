@@ -111,6 +111,7 @@ public final class ServerAdmin {
 		} catch (Exception e) {
 			LOG.warn("pack check failed: {}", e.toString());
 		}
+		LOG.info("poll finished (next in {}s)", pollSeconds);
 	}
 
 	// ---- whitelist / ops --------------------------------------------------------------
