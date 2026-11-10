@@ -541,6 +541,10 @@ file = "mods/terrablender.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/time-in-a-bottle-universal.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/trash-cans.pw.toml"
 metafile = true
 
