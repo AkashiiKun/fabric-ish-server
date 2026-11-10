@@ -1,31 +1,34 @@
 {
 	"schemaVersion": 1,
-	"id": "holiday",
+	"id": "fabric-ish",
 	"version": "${version}",
-	"name": "Holiday",
-	"description": "Server-side and client-side code for the Holiday-ish pack.",
+	"name": "FabricIsh",
+	"description": "Server-side and client-side code for the Fabric-ish pack.",
 	"authors": [
 		"zOnlyKroks"
 	],
 	"contact": {
-		"homepage": "https://github.com/zOnlyKroks/fabric-holiday-ish-server",
-		"sources": "https://github.com/zOnlyKroks/fabric-holiday-ish-server"
+		"homepage": "https://github.com/zOnlyKroks/fabric-ish-server",
+		"sources": "https://github.com/zOnlyKroks/fabric-ish-server"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/holiday/icon.png",
+	"icon": "assets/fabric-ish/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"holiday.HolidayMod"
+			"fabricish.FabricIshMod"
 		],
 		"client": [
-			"holiday.client.HolidayModClient"
-		]
+      "fabricish.client.FabricIshModClient"
+		],
+    "fabric-datagen": [
+      "fabricish.DataGenEntrypoint"
+    ]
 	},
 	"mixins": [
-		"holiday.mixins.json",
+    "fabric-ish.mixins.json",
 		{
-			"config": "holiday.client.mixins.json",
+			"config": "fabric-ish.client.mixins.json",
 			"environment": "client"
 		}
 	],

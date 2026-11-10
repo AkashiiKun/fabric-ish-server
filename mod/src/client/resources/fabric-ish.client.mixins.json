@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "fabricish.client.mixin",
+	"compatibilityLevel": "JAVA_25",
+	"client": [
+    "FabricIshClientMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
