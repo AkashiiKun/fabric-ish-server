@@ -1,0 +1,13 @@
+filename = 'litematica-fabric-26.3-0.29.1.jar'
+name = 'Litematica'
+side = 'client'
+
+[download]
+hash = '45a8d468463afb97b3fc72efa168024ad69e670e77f5455ecf588583434a1787b32795edf5236579c32c828b02873efb39a4808caa08bbbaf1d8b6b090b160c3'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bEpr0Arc/versions/ZqV316KY/litematica-fabric-26.3-0.29.1.jar'
+
+[update.modrinth]
+mod-id = 'bEpr0Arc'
+version = 'ZqV316KY'

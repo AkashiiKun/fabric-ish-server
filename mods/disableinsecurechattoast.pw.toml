@@ -1,0 +1,13 @@
+filename = 'disableinsecurechattoast-fabric-mc26.1-1.2.1.jar'
+name = 'Disable Insecure Chat Toast'
+side = 'client'
+
+[download]
+hash = '08b1c9180d6e0dc49502803bfbd3052c297799d93ea66564471a2835d68fa9be90bcc2d7b61f0439ae11bf6b26d58a388eec0772b95b1419dbc05c9445085cfa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/i090SePT/versions/ZeYGCzjK/disableinsecurechattoast-fabric-mc26.1-1.2.1.jar'
+
+[update.modrinth]
+mod-id = 'i090SePT'
+version = 'ZeYGCzjK'

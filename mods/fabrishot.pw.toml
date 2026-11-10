@@ -1,0 +1,13 @@
+filename = 'fabrishot-1.19.0.jar'
+name = 'Fabrishot'
+side = 'client'
+
+[download]
+hash = 'c04e334c9903fd3ae90e6914844738f92cc756891e5568a5e8fc1205476cf1faa5c6711bb4688181942ed07dcd8c554df34dcbc2070c910d9418974c6ca74bfa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3qsfQtE9/versions/OUYZYPVS/fabrishot-1.19.0.jar'
+
+[update.modrinth]
+mod-id = '3qsfQtE9'
+version = 'OUYZYPVS'

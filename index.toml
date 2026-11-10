@@ -37,6 +37,10 @@ file = "mods/beautify-refabricated.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/better-stats.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/biomes-o-plenty.pw.toml"
 metafile = true
 
@@ -73,7 +77,7 @@ file = "mods/chat-heads.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/chatpatches.pw.toml"
+file = "mods/chatanimation.pw.toml"
 metafile = true
 
 [[files]]
@@ -137,6 +141,10 @@ file = "mods/delight-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/disableinsecurechattoast.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/easters-delight.pw.toml"
 metafile = true
 
@@ -173,6 +181,10 @@ file = "mods/fabric-language-kotlin.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/fabrishot.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fallingleaves.pw.toml"
 metafile = true
 
@@ -193,11 +205,19 @@ file = "mods/forge-config-api-port.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/freecam.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/glitchcore.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/grind-enchantments.pw.toml"
 metafile = true
 
 [[files]]
@@ -230,6 +250,14 @@ metafile = true
 
 [[files]]
 file = "mods/lambdynamiclights.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/language-reload.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/litematica.pw.toml"
 metafile = true
 
 [[files]]
@@ -285,6 +313,10 @@ file = "mods/magnum-torch.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/malilib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mixson.pw.toml"
 metafile = true
 
@@ -294,6 +326,10 @@ metafile = true
 
 [[files]]
 file = "mods/more-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/morechathistory.pw.toml"
 metafile = true
 
 [[files]]
@@ -309,6 +345,10 @@ file = "mods/my-nethers-delight-refabricated.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/name-colors.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/naturalist.pw.toml"
 metafile = true
 
@@ -318,6 +358,10 @@ metafile = true
 
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/not-enough-animations.pw.toml"
 metafile = true
 
 [[files]]
@@ -385,6 +429,10 @@ file = "mods/simple-fishing-overhaul.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/simple-voice-chat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/skinshuffle.pw.toml"
 metafile = true
 
@@ -406,6 +454,10 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sound-physics-remastered.pw.toml"
 metafile = true
 
 [[files]]
@@ -442,6 +494,10 @@ metafile = true
 
 [[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/tcdcommons.pw.toml"
 metafile = true
 
 [[files]]
@@ -534,6 +590,10 @@ metafile = true
 
 [[files]]
 file = "mods/yeetus-experimentus.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yosbr.pw.toml"
 metafile = true
 
 [[files]]

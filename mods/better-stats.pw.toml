@@ -1,0 +1,13 @@
+filename = 'betterstats-5.8.0+fn-26.3.jar'
+name = 'Better Statistics Screen'
+side = 'both'
+
+[download]
+hash = 'f4352c27f3c60e0bd93d5f3bb7ab2d7078164332933fe1d03cec4e8b795cc484458fbe4651eda10aade89dc20226beaf27d935d891b3f3e648fc07e44fee68ab'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/n6PXGAoM/versions/GSF3fkG9/betterstats-5.8.0%2Bfn-26.3.jar'
+
+[update.modrinth]
+mod-id = 'n6PXGAoM'
+version = 'GSF3fkG9'

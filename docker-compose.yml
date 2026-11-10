@@ -8,6 +8,8 @@ services:
     stop_grace_period: 60s
     ports:
       - "25565:25565"
+      # Simple Voice Chat
+      - "24454:24454/udp"
       # BlueMap web map
       - "${BLUEMAP_BIND:-0.0.0.0}:${BLUEMAP_PORT:-8100}:8100"
     # Anything in .env is also passed through, so any itzg variable

@@ -1,0 +1,13 @@
+filename = 'namecolors-2.2.1-fabric-26.3.jar'
+name = 'name colors'
+side = 'server'
+
+[download]
+hash = 'bfcd22f7e78b020d9a2423893b7d777a819209f636661b993309dfab4cf069cc4ca32bd638257c67996cc4cdda982da9ebb40b28aee77f9bb7b2901ea15deb50'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M5BJqD6A/versions/L5Nv4pyj/namecolors-2.2.1-fabric-26.3.jar'
+
+[update.modrinth]
+mod-id = 'M5BJqD6A'
+version = 'L5Nv4pyj'
