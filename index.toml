@@ -129,22 +129,6 @@ file = "mods/crash-assistant.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-fluid-burner.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-nerfad.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-synthetic-pressure.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/cubes-without-borders.pw.toml"
 metafile = true
 
