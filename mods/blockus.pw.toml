@@ -1,0 +1,13 @@
+filename = 'blockus-2.18.3+26.3.jar'
+name = 'Blockus'
+side = 'both'
+
+[download]
+hash = 'cb584c25ad055b96623ec5c4deef42463a6502e8b6f24ac2a6c4b61857aa5b4a76ac54ac12f9347ddfa92e03f564640f09860de3af2d23c18b5702a327a0c05e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/zFiY2Go0/versions/R1FTwpNk/blockus-2.18.3%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'zFiY2Go0'
+version = 'R1FTwpNk'

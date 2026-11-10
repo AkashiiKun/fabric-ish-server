@@ -41,6 +41,10 @@ file = "mods/biomes-o-plenty.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/blockus.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/bluemap.pw.toml"
 metafile = true
 
@@ -337,6 +341,10 @@ file = "mods/placeholder-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/polymer.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 metafile = true
 
@@ -466,6 +474,14 @@ metafile = true
 
 [[files]]
 file = "mods/universal-bone-meal.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-graves.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/universal-shops.pw.toml"
 metafile = true
 
 [[files]]
