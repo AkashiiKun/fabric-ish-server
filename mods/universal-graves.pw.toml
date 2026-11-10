@@ -1,6 +1,6 @@
 filename = 'graves-3.13.0+26.3.jar'
 name = 'Universal Graves'
-side = 'server'
+side = 'both'
 
 [download]
 hash = '0a1e8bf88d66f0ba5cfdf3d7544b73d373f283c0b75ddb627fb8841825e58af7925f6eb3e8aa437f3739771396e4b32207192500062761bcdac7efcc3ff5cc03'
