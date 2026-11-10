@@ -353,10 +353,6 @@ file = "mods/rei.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/rewithered.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/rightclickharvest.pw.toml"
 metafile = true
 
@@ -470,10 +466,6 @@ metafile = true
 
 [[files]]
 file = "mods/universal-bone-meal.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/vanilla-refresh.pw.toml"
 metafile = true
 
 [[files]]
