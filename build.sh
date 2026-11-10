@@ -6,7 +6,7 @@ echo "Building internal mod..."
 # only replaces a mod when its file name changes.
 BASE_VERSION=$(sed -n 's/^version=//p' mod/gradle.properties)
 BUILD_ID=$(echo "${GITHUB_SHA:-local}" | cut -c1-7)
-(cd mod && chmod +x ./gradlew && ./gradlew clean  build "-Pversion=${BASE_VERSION}-${BUILD_ID}")
+(cd mod && chmod +x ./gradlew && ./gradlew clean build "-Pversion=${BASE_VERSION}-${BUILD_ID}")
 
 # Build pack
 echo "Building pack..."
