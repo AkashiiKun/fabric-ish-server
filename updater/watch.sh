@@ -61,12 +61,33 @@ sync_ops() {
 
 snapshot() {
   name="backup-$(date +%Y%m%d-%H%M%S).tar.gz"
-  echo "snapshot: stopping $MC_CONTAINER and writing $name"
+  echo "snapshot: writing $name (server stays up)"
+  # flush + pause saving so the world on disk is consistent while we copy it
   rcon "save-all flush" >/dev/null 2>&1 || true
-  docker stop "$MC_CONTAINER" >/dev/null
-  tar -C /data --exclude=./logs --exclude=./crash-reports --exclude=./cache \
-      -czf "/backups/$name" . || echo "snapshot: tar reported errors"
+  rcon "save-off" >/dev/null 2>&1 || true
+  sleep 3
+  if tar -C /data --exclude=./logs --exclude=./crash-reports --exclude=./cache         --exclude=./bluemap --exclude=./libraries --exclude=./.fabric -cf - .         | gzip -1 > "/backups/$name"; then
+    echo "snapshot: done ($(du -h "/backups/$name" | cut -f1))"
+  else
+    echo "snapshot: failed (disk full?), removing partial file"
+    rm -f "/backups/$name"
+  fi
+  rcon "save-on" >/dev/null 2>&1 || true
   ls -1t /backups/backup-*.tar.gz 2>/dev/null | tail -n +"$((BACKUP_KEEP + 1))" | xargs -r rm -f
+}
+
+# Whatever happened above, the server must come back up.
+start_mc() {
+  i=0
+  while [ "$i" -lt 5 ]; do
+    if docker restart "$MC_CONTAINER" >/dev/null 2>&1; then
+      echo "restarted $MC_CONTAINER"
+      return 0
+    fi
+    i=$((i + 1)); echo "docker restart failed (attempt $i/5), retrying in 10s"; sleep 10
+  done
+  echo "ERROR: could not restart $MC_CONTAINER; run: docker compose up -d mc"
+  return 1
 }
 
 # Baseline: don't block on this, so the whitelist sync below keeps running even
@@ -89,7 +110,8 @@ while true; do
       rcon "say Mod update available - server restarting in ${WARN_SECONDS}s" >/dev/null 2>&1 || true
       sleep "$WARN_SECONDS"
       snapshot
-      docker start "$MC_CONTAINER" >/dev/null && last="$cur"
+      start_mc
+      last="$cur"
     fi
   fi
 

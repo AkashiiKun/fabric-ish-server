@@ -23,7 +23,7 @@ case "${1:-}" in
     docker compose stop mc
     name="backup-$(date +%Y%m%d-%H%M%S)-manual.tar.gz"
     docker run --rm -v "$PWD/data:/data:ro" -v "$PWD/backups:/backups" alpine \
-      tar -C /data --exclude=./logs --exclude=./crash-reports --exclude=./cache -czf "/backups/$name" .
+      tar -C /data --exclude=./logs --exclude=./crash-reports --exclude=./cache --exclude=./bluemap --exclude=./libraries --exclude=./.fabric -czf "/backups/$name" .
     echo "wrote backups/$name"
     docker compose start mc
     ;;
@@ -37,7 +37,7 @@ case "${1:-}" in
     pin
     docker compose stop mc updater
     docker run --rm -v "$PWD/data:/data" -v "$PWD/backups:/backups:ro" alpine sh -c \
-      'find /data -mindepth 1 -maxdepth 1 -exec rm -rf {} + && tar -C /data -xzf "/backups/'"$(basename "$file")"'"'
+      'find /data -mindepth 1 -maxdepth 1 ! -name bluemap ! -name libraries ! -name .fabric -exec rm -rf {} + && tar -C /data -xzf "/backups/'"$(basename "$file")"'"'
     docker compose up -d --force-recreate
     echo "restored $file. Pinned: run './revert.sh unpin' to follow upstream again."
     ;;
