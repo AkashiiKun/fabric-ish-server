@@ -129,27 +129,11 @@ file = "mods/crash-assistant.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/crate-delight.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-fluid-burner.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-fly-bells-whistles-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-fly-bits-n-bobs-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly-blocks-bogies-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly-connected-unofficial-port.pw.toml"
 metafile = true
 
 [[files]]
