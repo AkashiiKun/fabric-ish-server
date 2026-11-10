@@ -1,0 +1,13 @@
+filename = 'offgrid-fabric-1.0.6+26.3.jar'
+name = 'Offgrid'
+side = 'both'
+
+[download]
+hash = '791a1f668126daedd617c15c5743735cfbda129b9d6cf5a8dd57f505200049b0b4cd49165d87e7f68e61f2646d379e30340a926d6aa5853822b1580c96d34abb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vvgTqF0n/versions/MLkL0DqF/offgrid-fabric-1.0.6%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'vvgTqF0n'
+version = 'MLkL0DqF'

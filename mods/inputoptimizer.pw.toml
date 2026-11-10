@@ -1,0 +1,13 @@
+filename = 'inputoptimizer-1.2.0.jar'
+name = 'Input Optimizer'
+side = 'client'
+
+[download]
+hash = 'adf9bbfaf63ee85f1ce4195bd88b9fe7ed735facbc675be1ba6a4824a69f561fbc21dbdf046d8f21546d7a959dab9fc9e52e6417541961f6b503589462402609'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/3LSDQnDJ/versions/x6Pk4wui/inputoptimizer-1.2.0.jar'
+
+[update.modrinth]
+mod-id = '3LSDQnDJ'
+version = 'x6Pk4wui'

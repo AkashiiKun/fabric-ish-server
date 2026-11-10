@@ -1,0 +1,13 @@
+filename = 'smbs-fabric-1.2.0+26.3.jar'
+name = 'Simple Mob Buff System'
+side = 'both'
+
+[download]
+hash = 'cd07a3c3ca224bc7dc826b97eeb11ce293b83683e26de1b816f2f1f1ead30d45dc4b982fb39e9cae6781d682afea67792173a536b3bb93f46ffcbd802d7a4125'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/GAArqhdA/versions/BYhhoYqa/smbs-fabric-1.2.0%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'GAArqhdA'
+version = 'BYhhoYqa'

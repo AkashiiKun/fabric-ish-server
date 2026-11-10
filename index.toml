@@ -25,6 +25,10 @@ file = "mods/badoptimizations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/baguettelib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 metafile = true
 
@@ -45,7 +49,27 @@ file = "mods/c2me-fabric.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/camerapture.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chalk-chars.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chalk-extras.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chalk-mod.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chat-heads.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chatpatches.pw.toml"
 metafile = true
 
 [[files]]
@@ -61,6 +85,10 @@ file = "mods/chunkyborder.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/clientsort.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/cloth-config.pw.toml"
 metafile = true
 
@@ -69,11 +97,23 @@ file = "mods/clumps.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/clutternomore.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/coal-nuggets.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/controlling.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cooking-for-blockheads.pw.toml"
 metafile = true
 
 [[files]]
@@ -102,6 +142,10 @@ metafile = true
 
 [[files]]
 file = "mods/elytra-trims.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/enchantment-descriptions.pw.toml"
 metafile = true
 
 [[files]]
@@ -154,6 +198,10 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/inputoptimizer.pw.toml"
 metafile = true
 
 [[files]]
@@ -221,7 +269,15 @@ file = "mods/macaws-windows.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/magic-vibe-decorations.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/magnum-torch.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mixson.pw.toml"
 metafile = true
 
 [[files]]
@@ -257,6 +313,10 @@ file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/offgrid.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/packet-fixer.pw.toml"
 metafile = true
 
@@ -273,6 +333,10 @@ file = "mods/placeholder-api.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/prickle.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/promenade.pw.toml"
 metafile = true
 
@@ -282,6 +346,10 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rewithered.pw.toml"
 metafile = true
 
 [[files]]
@@ -297,7 +365,27 @@ file = "mods/searchables.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/seeu.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/shogi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/simple-fishing-overhaul.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/skinshuffle.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smbs.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/smooth-scroll.pw.toml"
 metafile = true
 
 [[files]]
@@ -305,7 +393,15 @@ file = "mods/snow.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/soaring-phantoms.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/sodium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/sound.pw.toml"
 metafile = true
 
 [[files]]
@@ -317,11 +413,27 @@ file = "mods/spawn-animations.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sticky-redstone.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/stoneworks.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/storage-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/storagedrawers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/streams-reflowing.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-core-lib.pw.toml"
 metafile = true
 
 [[files]]
@@ -345,6 +457,10 @@ file = "mods/trek.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/twemoji.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/ubes-delight.pw.toml"
 metafile = true
 
@@ -353,11 +469,19 @@ file = "mods/universal-bone-meal.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/vanilla-refresh.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/veinminer-client.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/veinminer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/view-distance-fix.pw.toml"
 metafile = true
 
 [[files]]
@@ -374,6 +498,10 @@ metafile = true
 
 [[files]]
 file = "mods/voxy-server-side.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/voxy-worldgen.pw.toml"
 metafile = true
 
 [[files]]
@@ -394,6 +522,10 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/zombieimprovements.pw.toml"
 metafile = true
 
 [[files]]

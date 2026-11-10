@@ -1,0 +1,13 @@
+filename = 'chalk-fabric-26.3-2.0.4.jar'
+name = 'Chalk'
+side = 'both'
+
+[download]
+hash = 'ad25f52d72904c409b9e8eef9502adec00c9b29b6b0d1b359c95088ab17b4744cd9803f556a3d5de6dac053ab1ccd2a1bcbf06d33c33a9627ca7d1cc0bcd59ff'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YWGP4Y1d/versions/76TZUD6g/chalk-fabric-26.3-2.0.4.jar'
+
+[update.modrinth]
+mod-id = 'YWGP4Y1d'
+version = '76TZUD6g'

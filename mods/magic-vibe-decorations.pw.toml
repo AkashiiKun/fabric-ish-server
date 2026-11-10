@@ -1,0 +1,13 @@
+filename = 'magic_vibe_decorations-4.0.0-fabric-26.3.jar'
+name = 'Magic Vibe Decorations'
+side = 'both'
+
+[download]
+hash = '81a5c459b2047ab0fec66687b341509807ab2e7d164a3fabb4d67bf3fd1d9b26842f9d18c2c595fefd32091b8a5561b246a04a1b6beaa229c2ff23c17bb4643e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/MPAgKQOE/versions/atvMme0A/magic_vibe_decorations-4.0.0-fabric-26.3.jar'
+
+[update.modrinth]
+mod-id = 'MPAgKQOE'
+version = 'atvMme0A'

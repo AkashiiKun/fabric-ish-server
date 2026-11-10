@@ -1,0 +1,13 @@
+filename = 'chalk-extras-1.1.1.jar'
+name = 'Chalk: Extras'
+side = 'both'
+
+[download]
+hash = '48388f6d2a49097a65ff9aa224a79984ba2556221cae859c77e9356e0bc9aa2cf269eded3d5bd548c300c2a260e1f3a78b021b38943874898598c6a79e4afccd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UGTfdvlM/versions/DTK7Uhh0/chalk-extras-1.1.1.jar'
+
+[update.modrinth]
+mod-id = 'UGTfdvlM'
+version = 'DTK7Uhh0'

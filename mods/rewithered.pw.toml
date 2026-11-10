@@ -1,0 +1,13 @@
+filename = 'rewithered-fabric-1.0.15+26.3.jar'
+name = 'Rewithered'
+side = 'both'
+
+[download]
+hash = 'e932406adc8f39444b84daa631cefc3b4f788f604bdc708c974f2d9ee2a2852a7f6580f8c6375861654124742a4a3c7ccbee3904b4ee533e81971732946f0fd2'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UY95etAw/versions/cmawuNgP/rewithered-fabric-1.0.15%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'UY95etAw'
+version = 'cmawuNgP'

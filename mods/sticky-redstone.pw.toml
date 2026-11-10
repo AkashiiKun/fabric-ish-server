@@ -1,0 +1,13 @@
+filename = 'stickyredstone-1.0.3-fabric-mc26.3.jar'
+name = 'Sticky Redstone'
+side = 'both'
+
+[download]
+hash = '95f850eb7deaeeef360bc6a822f8979b53d4c3ea1a52dc52ebb53b1f7b1e7ed1aa819d2afc009a482ac38a95e2c96560ebadc5326fc50119bc7de269543fe127'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/1rA9AFJ9/versions/NEn1VZMz/stickyredstone-1.0.3-fabric-mc26.3.jar'
+
+[update.modrinth]
+mod-id = '1rA9AFJ9'
+version = 'NEn1VZMz'

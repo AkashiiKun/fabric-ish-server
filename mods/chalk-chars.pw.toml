@@ -1,0 +1,13 @@
+filename = 'chalk-chars-1.0.1.jar'
+name = 'Chalk: Chars'
+side = 'both'
+
+[download]
+hash = '2526786dc40924077b50235cf65fe061f7f1c13341933654da035709a70e8517cccffc3c94daa319ce2df09dade84e747a6a9f65a49b35284a100c4a11f1f9c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/YnpOJT0H/versions/xDozkIFm/chalk-chars-1.0.1.jar'
+
+[update.modrinth]
+mod-id = 'YnpOJT0H'
+version = 'xDozkIFm'

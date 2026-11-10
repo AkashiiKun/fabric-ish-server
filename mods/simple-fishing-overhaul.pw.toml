@@ -1,0 +1,13 @@
+filename = 'simple_fishing_overhaul-fabric-1.0.3+26.3.jar'
+name = 'Simple Fishing Overhaul'
+side = 'both'
+
+[download]
+hash = '2d45258a94cd37bf0778cd11924eacfbfcd9c270916ea6696635a49ac5753a824e9f3463ae63a9d15a23605f94a4c58b0d19a9af7b6b22cdb694f206de83a9f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/ZzqnpRP0/versions/OmRpp2qM/simple_fishing_overhaul-fabric-1.0.3%2B26.3.jar'
+
+[update.modrinth]
+mod-id = 'ZzqnpRP0'
+version = 'OmRpp2qM'

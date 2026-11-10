@@ -1,0 +1,13 @@
+filename = 'twemoji-26.3-Fabric-1.1.0.jar'
+name = 'Twemoji'
+side = 'both'
+
+[download]
+hash = '436e31ce05b6720f64a6abb557ac38d54a844e8bc99e323ce35dfe46db0fa716b24ce439b0cbb77e9b2a91b9db4c1b66fddef0a18f331b97ad0f4dcd1b7ca2bc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aCiQlU58/versions/oRaz49Ip/twemoji-26.3-Fabric-1.1.0.jar'
+
+[update.modrinth]
+mod-id = 'aCiQlU58'
+version = 'oRaz49Ip'
