@@ -201,6 +201,10 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/incendium.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/inputoptimizer.pw.toml"
 metafile = true
 
@@ -449,6 +453,14 @@ file = "mods/trek.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/trinkets-lantern-support.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/trinkets-updated.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/twemoji.pw.toml"
 metafile = true
 
@@ -510,6 +522,10 @@ metafile = true
 
 [[files]]
 file = "mods/yacl.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/yeetus-experimentus.pw.toml"
 metafile = true
 
 [[files]]

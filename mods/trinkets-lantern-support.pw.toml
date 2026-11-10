@@ -1,0 +1,13 @@
+filename = 'trinkets-lantern-support-1.0.0.jar'
+name = 'Trinkets Lantern Support'
+side = 'both'
+
+[download]
+hash = 'b1df920b09c92b41ad51bfa1c90de6d51bc2dcc2704981a84283b883fda51fe6962bd020186a09e0c2876737899ec410911afc54fe6e99be25835bbb6494c871'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Rxg5piNV/versions/8EhFOpKN/trinkets-lantern-support-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'Rxg5piNV'
+version = '8EhFOpKN'
