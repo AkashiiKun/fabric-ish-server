@@ -137,10 +137,6 @@ file = "mods/create-fly-recipe-viewer.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-fly-steam-n-rails-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-fly.pw.toml"
 metafile = true
 
