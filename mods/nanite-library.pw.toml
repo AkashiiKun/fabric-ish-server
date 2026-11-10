@@ -1,0 +1,13 @@
+filename = 'nanite-library-fabric-26.3.0.6.jar'
+name = 'Nanite Library'
+side = 'both'
+
+[download]
+hash = '138b43c695036cc2e55fcdfed5d4fa83afc073717ea0b8cae09ff84fa9d6c3ac994311ffc1b12cd89218c32dc013a5b1f5e01ea3932913f385a3387f8ac778d6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xSlNcCOe/versions/qBlAf6w2/nanite-library-fabric-26.3.0.6.jar'
+
+[update.modrinth]
+mod-id = 'xSlNcCOe'
+version = 'qBlAf6w2'

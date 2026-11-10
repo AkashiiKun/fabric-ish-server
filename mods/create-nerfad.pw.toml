@@ -1,0 +1,13 @@
+filename = 'create_nerfad-1-2-9.jar'
+name = 'Create: Nerfad'
+side = 'server'
+
+[download]
+hash = 'b790cece533890a5c9928d2a9964e9948ce7f519b23413f0f4bee0ccd8682d22cf76ecd8cbdccc1a14b001ea3f15bcecbc867840944dccbe1f273443625230b0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/o320dRNP/versions/tty3F8ME/create_nerfad-1-2-9.jar'
+
+[update.modrinth]
+mod-id = 'o320dRNP'
+version = 'tty3F8ME'

@@ -1,0 +1,13 @@
+filename = 'trashcans-1.1.2a-fabric-mc26.3.jar'
+name = 'Trash Cans'
+side = 'both'
+
+[download]
+hash = '69c470785406d1d49ec12e6db0bc34436626ce4be18a07b037baf57795d1d3ae7fa88cd8922e5ef4aa481ba0c6bcf5b3dd64199e0dcaed6ab0cf0a27c9904921'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/4QrnfueM/versions/WMwupD6j/trashcans-1.1.2a-fabric-mc26.3.jar'
+
+[update.modrinth]
+mod-id = '4QrnfueM'
+version = 'WMwupD6j'

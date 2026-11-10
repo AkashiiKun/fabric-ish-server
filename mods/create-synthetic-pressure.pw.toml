@@ -1,0 +1,13 @@
+filename = 'create_synthetic_pressure-1.0.2.jar'
+name = 'Create: Synthetic Pressure'
+side = 'both'
+
+[download]
+hash = 'f86373bb7988c02a8dd3a2acee83d02414ef5412dcbf32482ffa015a9f8ea7478d9e618bcd031e2e8fa3420fc6ad53b476d1beadfd7ffd1296b7ab63e61d38a8'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DFKpjlu6/versions/fFbfYq1s/create_synthetic_pressure-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'DFKpjlu6'
+version = 'fFbfYq1s'

@@ -57,6 +57,10 @@ file = "mods/camerapture.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cc-tweaked.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/chalk-chars.pw.toml"
 metafile = true
 
@@ -78,6 +82,10 @@ metafile = true
 
 [[files]]
 file = "mods/chefs-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/chunk-loaders.pw.toml"
 metafile = true
 
 [[files]]
@@ -122,6 +130,62 @@ metafile = true
 
 [[files]]
 file = "mods/crate-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fluid-burner.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-bells-whistles-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-bits-n-bobs-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-blocks-bogies-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-connected-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-crafts-additions-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-diesel-generators-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-farmers.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-power-grid-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-recipe-viewer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly-steam-n-rails-unofficial-port.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-fly.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-nerfad.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/create-synthetic-pressure.pw.toml"
 metafile = true
 
 [[files]]
@@ -241,6 +305,10 @@ file = "mods/jamlib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/just-hammers.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/krypton.pw.toml"
 metafile = true
 
@@ -333,6 +401,10 @@ file = "mods/mouse-tweaks.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/moving-elevators.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mru.pw.toml"
 metafile = true
 
@@ -342,6 +414,10 @@ metafile = true
 
 [[files]]
 file = "mods/name-colors.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/nanite-library.pw.toml"
 metafile = true
 
 [[files]]
@@ -362,6 +438,10 @@ metafile = true
 
 [[files]]
 file = "mods/offgrid.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/otterlib.pw.toml"
 metafile = true
 
 [[files]]
@@ -433,6 +513,10 @@ file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/sit.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/skinshuffle.pw.toml"
 metafile = true
 
@@ -493,6 +577,10 @@ file = "mods/streams-reflowing.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-core-lib.pw.toml"
 metafile = true
 
@@ -502,6 +590,10 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/trash-cans.pw.toml"
 metafile = true
 
 [[files]]

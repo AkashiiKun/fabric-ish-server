@@ -1,0 +1,13 @@
+filename = 'cc-tweaked-26.3-fabric-1.121.0.jar'
+name = 'CC: Tweaked'
+side = 'both'
+
+[download]
+hash = '1918e6428659db28fd0facfa94d74881bfaa9c21bcc0bab8f17fb3eea4444527125efe44fc4e82d125a0fe1a6b384e7da252d91825096b836e737a592ef2cb8d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gu7yAYhd/versions/M5LJB9s0/cc-tweaked-26.3-fabric-1.121.0.jar'
+
+[update.modrinth]
+mod-id = 'gu7yAYhd'
+version = 'M5LJB9s0'

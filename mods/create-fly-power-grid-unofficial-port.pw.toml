@@ -1,0 +1,13 @@
+filename = 'PowerGrid-0.6.2.4+fly-mc26.3.jar'
+name = 'Create Fly: Power Grid (Unofficial Port)'
+side = 'both'
+
+[download]
+hash = '23404cf95464000d18ca307e678d91a04b7e42fd584ca05f10f493e79ff9040f87a7789c3edfb076dd02c411d5830162e3a7dd2c74494cbc3e5fe9b81736bdaa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/aCYmmLAn/versions/oZuVNsG0/PowerGrid-0.6.2.4%2Bfly-mc26.3.jar'
+
+[update.modrinth]
+mod-id = 'aCYmmLAn'
+version = 'oZuVNsG0'

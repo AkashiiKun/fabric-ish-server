@@ -1,0 +1,13 @@
+filename = 'movingelevators-1.4.12-fabric-mc26.3.jar'
+name = 'Moving Elevators'
+side = 'both'
+
+[download]
+hash = '37f26f84df4cbea5160e71a0cafd13b5c531d223476274c3c93474c3ec744d86521c7dec873b10cfa4ac856c576730befe201216f2209345311659de0712b05a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/9KZOe6HD/versions/tiiCEDHz/movingelevators-1.4.12-fabric-mc26.3.jar'
+
+[update.modrinth]
+mod-id = '9KZOe6HD'
+version = 'tiiCEDHz'

@@ -1,0 +1,13 @@
+filename = 'CreateReiViewer-1.0.3+fly-mc26.3.jar'
+name = 'Create Fly: Recipe Viewer'
+side = 'both'
+
+[download]
+hash = '04cbb7acd03cad0defabf7827cd867f2f59890807819d7c9055848a07c55ee3784700a6a2628c4409064c8ef2b870aa47d6d71cda9a1818c9353179aa2b98beb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/vMOBLOfr/versions/KyXrlkYD/CreateReiViewer-1.0.3%2Bfly-mc26.3.jar'
+
+[update.modrinth]
+mod-id = 'vMOBLOfr'
+version = 'KyXrlkYD'

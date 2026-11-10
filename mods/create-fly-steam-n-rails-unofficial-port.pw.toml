@@ -1,0 +1,13 @@
+filename = 'Steam_Rails-1.7.3.3+fly-mc26.3.jar'
+name = 'Create Fly: Steam n Rails (Unofficial Port)'
+side = 'both'
+
+[download]
+hash = '5c62dceb6f35c4707003820bda1e27494d5384300ad00dea57609147dcd518315fb925203dd5d69f89016388e24eaf5577696070a4754c06355f2e0ac8732a4e'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/13eOfSPn/versions/AlXpf03m/Steam_Rails-1.7.3.3%2Bfly-mc26.3.jar'
+
+[update.modrinth]
+mod-id = '13eOfSPn'
+version = 'AlXpf03m'
