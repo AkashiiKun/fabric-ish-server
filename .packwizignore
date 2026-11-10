@@ -1,15 +1,5 @@
-/README.md
-*.sh
-.github/
-mod/
-build/
+# Ignore everything
+/*
 
-# our docker/server additions (not part of the modpack)
-docker-compose.yml
-updater/
-server-config/
-revert.sh
-.env.example
-backups/
-data/
-.gitkeep
+# Include only the mods folder
+!/mods
