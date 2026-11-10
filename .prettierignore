@@ -1,0 +1,18 @@
+# generated or managed by tools, not to be reformatted
+mods/
+index.toml
+pack.toml
+build/
+out/
+data/
+backups/
+
+# Java/Gradle project (own formatting rules, see .editorconfig)
+mod/
+
+# shell scripts and configs Prettier has no parser for are skipped automatically;
+# these must stay byte-exact:
+server-config/config/bluemap/
+server-config/config/chunkyborder/borders.json
+.env
+.env.example

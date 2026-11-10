@@ -525,6 +525,10 @@ file = "mods/supermartijn642s-core-lib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/swing-through-grass.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/tcdcommons.pw.toml"
 metafile = true
 
