@@ -9,10 +9,6 @@ file = "mods/advanced-netherite.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/alternate-current.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/appleskin.pw.toml"
 metafile = true
 
