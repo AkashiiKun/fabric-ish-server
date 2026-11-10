@@ -1,0 +1,17 @@
+{
+  "enabled": true,
+  "engine": "PIPELINE",
+  "radius": 10000,
+  "threads": 0,
+  "tileSize": 16,
+  "msptLimit": 55,
+  "lightMode": "ACCURATE",
+  "ticketInflight": 256,
+  "sendPerTick": 24,
+  "threadPriority": 3,
+  "horizonEnabled": false,
+  "horizonDistanceK": 40,
+  "horizonDetail": 100,
+  "detailDistance": 512,
+  "detailDecorate": false
+}
