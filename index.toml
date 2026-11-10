@@ -385,6 +385,10 @@ file = "mods/polymer.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/presence-footsteps.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/prickle.pw.toml"
 metafile = true
 
