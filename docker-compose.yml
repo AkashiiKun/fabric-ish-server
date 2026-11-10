@@ -34,42 +34,19 @@ services:
       ENABLE_WHITELIST: "${MC_WHITELIST:-true}"
       ENFORCE_WHITELIST: "true"
       OPS: "${MC_OPS:-}"
-      ENABLE_RCON: "true"
-      RCON_PASSWORD: "${RCON_PASSWORD:?set RCON_PASSWORD in .env}"
+      # No RCON: whitelist/ops sync and pack updates run inside the server (holiday mod).
+      ENABLE_RCON: "false"
       TZ: "${TZ:-Europe/Berlin}"
     volumes:
       - ./data:/data
+      # Snapshots written by the holiday mod before a pack update (see revert.sh).
+      - ./backups:/backups
       # Server config files from the repo, mounted read-only one by one: the container always
       # sees exactly the repo version, nothing is copied or merged. (whitelist.json and
-      # ops.json are written by the updater from WHITELIST_URL / OPS_URL instead.)
+      # ops.json are synced by the holiday mod from WHITELIST_URL / OPS_URL.)
       - ./server-config/config/chunkyborder/borders.json:/data/config/chunkyborder/borders.json:ro
       - ./server-config/config/bluemap/core.conf:/data/config/bluemap/core.conf:ro
       - ./server-config/config/bluemap/webserver.conf:/data/config/bluemap/webserver.conf:ro
-
-  # Does three jobs (see updater/watch.sh):
-  #  1. pulls whitelist.json from GitHub and applies it live (no restart)
-  #  2. when the upstream pack changes: warns players, snapshots data/ into backups/, restarts mc
-  #  3. stays out of the way while a revert is active (backups/PINNED exists)
-  updater:
-    image: docker:27-cli
-    container_name: mc-updater
-    restart: unless-stopped
-    depends_on:
-      - mc
-    environment:
-      PACK_URL: "${PACK_URL}"
-      WHITELIST_URL: "${WHITELIST_URL:-}"
-      OPS_URL: "${OPS_URL:-}"
-      POLL_SECONDS: "${UPDATE_POLL_SECONDS:-300}"
-      WARN_SECONDS: "${UPDATE_WARN_SECONDS:-60}"
-      BACKUP_KEEP: "${BACKUP_KEEP:-5}"
-      MC_CONTAINER: mc
-    entrypoint: ["/bin/sh", "/watch.sh"]
-    volumes:
-      - ./updater/watch.sh:/watch.sh:ro
-      - ./data:/data
-      - ./backups:/backups
-      - /var/run/docker.sock:/var/run/docker.sock
 
   # Optional HTTPS for the BlueMap web map: `docker compose --profile https up -d`
   # Needs MAP_DOMAIN in .env (DNS A/AAAA record pointing at this server, ports 80 + 443 open).

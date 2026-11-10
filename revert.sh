@@ -35,7 +35,7 @@ case "${1:-}" in
     printf 'Replace the CURRENT contents of data/ (world, mods, config) with %s? [y/N] ' "$file"
     read -r ans; [ "$ans" = "y" ] || exit 1
     pin
-    docker compose stop mc updater
+    docker compose stop mc
     docker run --rm -v "$PWD/data:/data" -v "$PWD/backups:/backups:ro" alpine sh -c \
       'find /data -mindepth 1 -maxdepth 1 ! -name bluemap ! -name libraries ! -name .fabric -exec rm -rf {} + && tar -C /data -xzf "/backups/'"$(basename "$file")"'"'
     docker compose up -d --force-recreate
