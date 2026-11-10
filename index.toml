@@ -113,10 +113,6 @@ file = "mods/controlling.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/cooking-for-blockheads.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/crash-assistant.pw.toml"
 metafile = true
 
@@ -437,15 +433,7 @@ file = "mods/supermartijn642s-core-lib.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/tectonic.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/terrablender.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/terralith.pw.toml"
 metafile = true
 
 [[files]]
@@ -498,10 +486,6 @@ metafile = true
 
 [[files]]
 file = "mods/voxy-server-side.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/voxy-worldgen.pw.toml"
 metafile = true
 
 [[files]]
