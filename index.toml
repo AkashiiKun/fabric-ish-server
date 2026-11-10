@@ -133,26 +133,6 @@ file = "mods/create-fluid-burner.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/create-fly-bits-n-bobs-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly-crafts-additions-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly-diesel-generators-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly-farmers.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/create-fly-power-grid-unofficial-port.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/create-fly-recipe-viewer.pw.toml"
 metafile = true
 
