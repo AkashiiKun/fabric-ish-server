@@ -1,7 +1,7 @@
 {
   "enabled": true,
   "engine": "PIPELINE",
-  "radius": 10000,
+  "radius": 5000,
   "threads": 0,
   "tileSize": 16,
   "msptLimit": 55,
