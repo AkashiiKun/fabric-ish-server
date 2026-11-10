@@ -1,0 +1,15 @@
+name = "StorageDrawersExtras"
+filename = "storage-drawers-extra-reloaded-fabric-26.3-20.1.0.jar"
+side = "both"
+
+[download]
+url = "https://github.com/cputnam-a11y/StorageDrawersExtras/releases/download/26.3/storage-drawers-extra-reloaded-fabric-26.3-20.1.0.jar"
+hash-format = "sha256"
+hash = "6c890d59ef193dafb82f42d41e004b7a3d9cd92ae61ec0652d22e4c737cc6ee9"
+
+[update]
+[update.github]
+branch = "1.21.11"
+regex = "^storage-drawers-extra-reloaded-fabric-.*-[0-9]+\\.[0-9]+\\.[0-9]+\\.jar$"
+slug = "cputnam-a11y/StorageDrawersExtras"
+tag = "26.3"

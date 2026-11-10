@@ -513,6 +513,10 @@ file = "mods/storagedrawers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/storagedrawersextras.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/streams-reflowing.pw.toml"
 metafile = true
 
