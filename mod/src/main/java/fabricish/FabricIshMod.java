@@ -1,5 +1,6 @@
 package fabricish;
 
+import fabricish.block.FabricIshBlocks;
 import fabricish.item.FabricIshItems;
 import fabricish.server.ServerAdmin;
 
@@ -20,6 +21,7 @@ public class FabricIshMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric-ish world!");
 
+        FabricIshBlocks.initialize();
         FabricIshItems.register();
 
 		// Whitelist/ops sync and pack-update restarts, dedicated servers only.

@@ -1,5 +1,6 @@
 package fabricish;
 
+import fabricish.block.FabricIshBlocks;
 import fabricish.item.FabricIshItems;
 import net.fabricmc.fabric.api.client.datagen.v1.provider.FabricModelProvider;
 import net.fabricmc.fabric.api.datagen.v1.FabricPackOutput;
@@ -14,7 +15,7 @@ public class FabricIshModelProvider extends FabricModelProvider {
 
     @Override
     public void generateBlockStateModels(BlockModelGenerators generator) {
-
+        generator.createNonTemplateHorizontalBlock(FabricIshBlocks.TINY_POTATO);
     }
 
     @Override

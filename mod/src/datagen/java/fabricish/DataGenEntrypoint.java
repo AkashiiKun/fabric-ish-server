@@ -13,6 +13,7 @@ public class DataGenEntrypoint implements DataGeneratorEntrypoint {
 
         pack.addProvider(FabricIshBannerPatternProvider::new);
         pack.addProvider(FabricIshBannerPatternTagProvider::new);
+        pack.addProvider(FabricIshBlockLootTableProvider::new);
         pack.addProvider(FabricIshModelProvider::new);
         pack.addProvider(FabricIshItemTagProvider::new);
         pack.addProvider(FabricIshRecipeProvider::new);
