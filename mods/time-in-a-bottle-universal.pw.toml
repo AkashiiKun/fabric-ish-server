@@ -1,0 +1,13 @@
+name = "Time in a bottle"
+filename = "tiab-fabric-8.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/LQdpBqdS/versions/1Xr1OX3k/tiab-fabric-8.0.0.jar"
+hash-format = "sha512"
+hash = "35383982607326cac4331935eddea04c5adc75db6147daa53482286e7f88ef066de83da1a843aea934a91ce4af90fa86448a4355fa092971c28201e5d7e18207"
+
+[update]
+[update.modrinth]
+mod-id = "LQdpBqdS"
+version = "1Xr1OX3k"

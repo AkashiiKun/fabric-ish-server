@@ -1,0 +1,13 @@
+name = "Arcane Lanterns"
+filename = "arcanelanterns-v26.3.1-mc26.3.x+fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/NvlReHlC/versions/Pq8SSaU0/arcanelanterns-v26.3.1-mc26.3.x%2Bfabric.jar"
+hash-format = "sha512"
+hash = "a9720ddec9b4bf8d8c21ef2aa481754f2c4e1a0f19ca9fac1ded7703789d7f9ce48b873572b96ac429ba06bc38d357f75f44a315c33ea336340374350374b213"
+
+[update]
+[update.modrinth]
+mod-id = "NvlReHlC"
+version = "Pq8SSaU0"

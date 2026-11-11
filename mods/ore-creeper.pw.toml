@@ -1,0 +1,13 @@
+name = "Ore Creeper"
+filename = "Ore Creeper-fabric-26.3-2.0.3.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/CGmwbV8J/versions/iKv5s7LE/Ore%20Creeper-fabric-26.3-2.0.3.jar"
+hash-format = "sha512"
+hash = "21e0b383306d210cb9bcc7f8a58eb611411e79d4847cb8e27f18e8a11049a2181e1dcf3345586951648bbe21e78613a1801851d393966776f8cedfd74dd66c46"
+
+[update]
+[update.modrinth]
+mod-id = "CGmwbV8J"
+version = "iKv5s7LE"

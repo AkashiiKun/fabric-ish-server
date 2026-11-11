@@ -1,0 +1,13 @@
+name = "Actually Additions (Fabric)"
+filename = "actuallyadditions-fabric-1.3.26.10-mc26.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "88724e68d1902230b99f842cc3e181ea10c4134d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9359236
+project-id = 1732489

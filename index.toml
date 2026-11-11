@@ -5,11 +5,19 @@ file = "mods/3dskinlayers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/actually-additions-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/advanced-netherite.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/appleskin.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/arcane-lanterns.pw.toml"
 metafile = true
 
 [[files]]
@@ -26,6 +34,10 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/bartering-station.pw.toml"
 metafile = true
 
 [[files]]
@@ -146,6 +158,10 @@ metafile = true
 
 [[files]]
 file = "mods/easters-delight.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/echo-chest.pw.toml"
 metafile = true
 
 [[files]]
@@ -273,6 +289,10 @@ file = "mods/lithostitched.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/lootr.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/macaws-doors.pw.toml"
 metafile = true
 
@@ -369,6 +389,10 @@ file = "mods/netherportalfix.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/new-linked-chests.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/no-chat-reports.pw.toml"
 metafile = true
 
@@ -378,6 +402,10 @@ metafile = true
 
 [[files]]
 file = "mods/offgrid.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/ore-creeper.pw.toml"
 metafile = true
 
 [[files]]
@@ -513,6 +541,10 @@ file = "mods/storagedrawers.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/storagedrawersextras.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/streams-reflowing.pw.toml"
 metafile = true
 
@@ -534,6 +566,14 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/time-in-a-bottle-universal.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/trading-post.pw.toml"
 metafile = true
 
 [[files]]
