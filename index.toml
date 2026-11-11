@@ -105,6 +105,10 @@ file = "mods/chunkyborder.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cicada.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/clientsort.pw.toml"
 metafile = true
 
@@ -129,7 +133,7 @@ file = "mods/coal-nuggets.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/colossal-chests.pw.toml"
+file = "mods/colossal-chests-2.pw.toml"
 metafile = true
 
 [[files]]
@@ -241,11 +245,19 @@ file = "mods/grind-enchantments.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/headpat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/incendium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/indypets.pw.toml"
 metafile = true
 
 [[files]]
@@ -345,6 +357,14 @@ file = "mods/malilib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mavapi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mavm.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mcjtylib.pw.toml"
 metafile = true
 
@@ -429,10 +449,6 @@ file = "mods/particle-core.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/patpat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 metafile = true
 
@@ -481,7 +497,7 @@ file = "mods/shogi.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/signtastic.pw.toml"
+file = "mods/signed-paintings.pw.toml"
 metafile = true
 
 [[files]]
@@ -578,6 +594,10 @@ metafile = true
 
 [[files]]
 file = "mods/terrablender.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/terrestria.pw.toml"
 metafile = true
 
 [[files]]
