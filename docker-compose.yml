@@ -28,10 +28,9 @@ services:
       # a snapshot is restored; an empty value disables the sync.
       PACKWIZ_URL: "${PACKWIZ_URL_OVERRIDE-${PACK_URL}}"
       MEMORY: "${MC_MEMORY:-4G}"
-      # MeowIce's optimized JVM flags (newer successor to Aikar's, for Java 17+, with extra
-      # tuning when running on GraalVM). Don't set a GC in JVM_XX_OPTS as well.
       USE_AIKAR_FLAGS: "false"
-      USE_MEOWICE_FLAGS: "${USE_MEOWICE_FLAGS:-true}"
+      USE_MEOWICE_FLAGS: "false"
+      JVM_XX_OPTS: "${JVM_XX_OPTS:--XX:+UseZGC}"
       MOTD: "${MC_MOTD:-Holiday-ish server}"
       MAX_PLAYERS: "${MC_MAX_PLAYERS:-10}"
       DIFFICULTY: "${MC_DIFFICULTY:-normal}"
