@@ -365,7 +365,7 @@ file = "mods/mavm.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/mcjtylib.pw.toml"
+file = "mods/mcjtylib-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -446,10 +446,6 @@ metafile = true
 
 [[files]]
 file = "mods/particle-core.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/patpat.pw.toml"
 metafile = true
 
 [[files]]
