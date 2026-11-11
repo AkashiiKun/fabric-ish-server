@@ -157,10 +157,6 @@ file = "mods/disableinsecurechattoast.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/distanthorizons.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/easters-delight.pw.toml"
 metafile = true
 
