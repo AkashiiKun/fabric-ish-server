@@ -679,3 +679,7 @@ metafile = true
 [[files]]
 file = "mods/zoomify.pw.toml"
 metafile = true
+
+[[files]]
+file = "shaderpacks/photon.pw.toml"
+metafile = true

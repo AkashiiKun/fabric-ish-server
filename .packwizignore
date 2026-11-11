@@ -1,5 +1,6 @@
 # Ignore everything
 /*
 
-# Include only the mods folder
+# Include only the mods and shaderpacks folders
 !/mods
+!/shaderpacks
