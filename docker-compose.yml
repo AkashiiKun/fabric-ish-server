@@ -1,6 +1,6 @@
 services:
   mc:
-    image: itzg/minecraft-server:${MC_IMAGE_TAG:-java25-graalvm}
+    image: itzg/minecraft-server:${MC_IMAGE_TAG:-java25}
     container_name: mc
     restart: unless-stopped
     tty: true
