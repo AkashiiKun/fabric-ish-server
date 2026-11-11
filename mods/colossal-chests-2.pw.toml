@@ -1,0 +1,13 @@
+name = "Colossal Chests 2"
+filename = "colossalchests2-26.3-fabric-1.0.0-78.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/cdpRozK9/versions/ohW1fLFc/colossalchests2-26.3-fabric-1.0.0-78.jar"
+hash-format = "sha512"
+hash = "83315d868585cba2d7d2e70db4afb52ec0001d95196fe46660a8793126e7225aceb1a65adb4a5be9d240b7bd9132c6c1914ecfc65dddff6f2664a7e9672021db"
+
+[update]
+[update.modrinth]
+mod-id = "cdpRozK9"
+version = "ohW1fLFc"
