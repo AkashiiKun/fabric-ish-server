@@ -49,10 +49,6 @@ file = "mods/better-stats.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/biomes-o-plenty.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/blockus.pw.toml"
 metafile = true
 
@@ -109,7 +105,15 @@ file = "mods/chunkyborder.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cicada.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/clientsort.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clifftree.pw.toml"
 metafile = true
 
 [[files]]
@@ -129,6 +133,10 @@ file = "mods/coal-nuggets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/colossal-chests-2.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 metafile = true
 
@@ -145,6 +153,10 @@ file = "mods/cubes-without-borders.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/cyclops-core.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/debugify.pw.toml"
 metafile = true
 
@@ -154,10 +166,6 @@ metafile = true
 
 [[files]]
 file = "mods/disableinsecurechattoast.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/distanthorizons.pw.toml"
 metafile = true
 
 [[files]]
@@ -233,11 +241,11 @@ file = "mods/fzzy-config.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/glitchcore.pw.toml"
+file = "mods/grind-enchantments.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/grind-enchantments.pw.toml"
+file = "mods/headpat.pw.toml"
 metafile = true
 
 [[files]]
@@ -246,6 +254,10 @@ metafile = true
 
 [[files]]
 file = "mods/incendium.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/indypets.pw.toml"
 metafile = true
 
 [[files]]
@@ -345,6 +357,18 @@ file = "mods/malilib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mavapi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mavm.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/mcjtylib-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mixson.pw.toml"
 metafile = true
 
@@ -425,15 +449,15 @@ file = "mods/particle-core.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/patpat.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/placeholder-api.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/polymorph_plus.pw.toml"
 metafile = true
 
 [[files]]
@@ -457,6 +481,34 @@ file = "mods/rei.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/rftools-base-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-builder-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-control-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-dimensions-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-power-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-storage-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-utility-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/rightclickharvest.pw.toml"
 metafile = true
 
@@ -474,6 +526,10 @@ metafile = true
 
 [[files]]
 file = "mods/shogi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/signed-paintings.pw.toml"
 metafile = true
 
 [[files]]
@@ -573,6 +629,10 @@ file = "mods/terrablender.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/terrestria.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/time-in-a-bottle-universal.pw.toml"
 metafile = true
 
@@ -665,6 +725,10 @@ file = "mods/xaeros-world-map.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/xnet-fabric.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 metafile = true
 
@@ -682,4 +746,8 @@ metafile = true
 
 [[files]]
 file = "mods/zoomify.pw.toml"
+metafile = true
+
+[[files]]
+file = "shaderpacks/photon.pw.toml"
 metafile = true

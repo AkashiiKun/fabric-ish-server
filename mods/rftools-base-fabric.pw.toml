@@ -1,0 +1,13 @@
+name = "RFTools Base (Fabric)"
+filename = "rftoolsbase-fabric-26.3-26.3-6.0.11.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "080b462d3fde42237ff0c9714a5c9e847482f9fa"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9202130
+project-id = 1705327

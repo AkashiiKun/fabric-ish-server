@@ -13,7 +13,7 @@ echo "Building pack..."
 
 rm -rf build
 mkdir -p build
-cp -r mods index.toml pack.toml build
+cp -r mods shaderpacks index.toml pack.toml build
 # optional client+server config shipped with the pack
 [ -d config ] && cp -r config build
 # placeholder files only keep empty dirs in git; Pages doesn't serve dotfiles

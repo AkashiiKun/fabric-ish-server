@@ -1,0 +1,13 @@
+name = "McJtyLib (Fabric)"
+filename = "mcjtylib-fabric-26.3-26.3-9.0.21.17.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "f178be477a7cc6753cdb15f01ca329a06776844e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9512035
+project-id = 1705311
