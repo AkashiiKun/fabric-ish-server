@@ -1,0 +1,13 @@
+filename = 'colossalchests-26.3-fabric-1.8.16-322.jar'
+name = 'Colossal Chests'
+side = 'both'
+
+[download]
+hash = '47b54a4c611d99248092e21b60acadc5ddfe8cf7ab8065e4b11521eca2a82466da5eb89f8b8cce62930558e6fc4f9535751148a9f13cb22fe521a8d250077b09'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/V8HM9qmm/versions/pqKuD90i/colossalchests-26.3-fabric-1.8.16-322.jar'
+
+[update.modrinth]
+mod-id = 'V8HM9qmm'
+version = 'pqKuD90i'

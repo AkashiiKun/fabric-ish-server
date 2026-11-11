@@ -129,6 +129,10 @@ file = "mods/coal-nuggets.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/colossal-chests.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/continuity.pw.toml"
 metafile = true
 
@@ -142,6 +146,10 @@ metafile = true
 
 [[files]]
 file = "mods/cubes-without-borders.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/cyclops-core.pw.toml"
 metafile = true
 
 [[files]]
@@ -337,6 +345,10 @@ file = "mods/malilib.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mcjtylib.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/mixson.pw.toml"
 metafile = true
 
@@ -466,6 +478,10 @@ metafile = true
 
 [[files]]
 file = "mods/shogi.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/signtastic.pw.toml"
 metafile = true
 
 [[files]]
