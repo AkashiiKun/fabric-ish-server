@@ -1,0 +1,13 @@
+name = "Polymorph+"
+filename = "polymorph_plus-fabric-1.5.0-26.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1781858483216e7fa2d964f4ce25c823a9951f11"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9531235
+project-id = 1586874
