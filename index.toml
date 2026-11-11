@@ -457,10 +457,6 @@ file = "mods/polymer.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/polymorph-plus.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/polymorph_plus.pw.toml"
 metafile = true
 
