@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "minecraft:potato"
+  ],
+  "result": {
+    "id": "fabric-ish:tater_banner_pattern"
+  }
+}

@@ -1,5 +1,4 @@
 *.mrpack
-*.mrpack
 .DS_Store
 .env
 /.idea/
@@ -10,6 +9,8 @@ mod/.gradle/
 mod/.idea/
 mod/build/
 mod/run/
+!mod/src/main/generated/data
+mod/src/main/generated/.cache
 mods/holiday-server-mod-*.jar
 out/
 docker-compose.override.yml
