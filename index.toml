@@ -449,6 +449,10 @@ file = "mods/particle-core.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/patpat.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 metafile = true
 
@@ -474,6 +478,34 @@ metafile = true
 
 [[files]]
 file = "mods/rei.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-base-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-builder-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-control-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-dimensions-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-power-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-storage-fabric.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/rftools-utility-fabric.pw.toml"
 metafile = true
 
 [[files]]
@@ -690,6 +722,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-world-map.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xnet-fabric.pw.toml"
 metafile = true
 
 [[files]]

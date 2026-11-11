@@ -1,0 +1,13 @@
+name = "RFTools Control (Fabric)"
+filename = "rftoolscontrol-fabric-26.3-26.3-8.0.2.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "c6ff8085ae6c017a2d22358658edf94bd029364e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9183272
+project-id = 1742060

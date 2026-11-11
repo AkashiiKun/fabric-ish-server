@@ -1,0 +1,13 @@
+name = "RFTools Dimensions (Fabric)"
+filename = "rftoolsdim-fabric-26.3-26.3-12.0.5.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "68cba5b84e619653217c60d4eb53cda0f20cbd11"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9304423
+project-id = 1756705
