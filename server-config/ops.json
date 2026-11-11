@@ -4,5 +4,17 @@
     "name": "zOnlyKroks",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "38c18388-a28b-442e-b506-f6c5e5b943be",
+    "name": "Akashii_Kun",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5e4e65d4-64fa-430b-8c9f-632f96790d94",
+    "name": "InsertUniqueName",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]
