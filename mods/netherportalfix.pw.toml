@@ -1,6 +1,6 @@
 filename = 'netherportalfix-fabric-26.3-26.3.0.1.jar'
 name = 'NetherPortalFix'
-side = 'server'
+side = 'both'
 
 [download]
 hash = '3e30a398702f49e6336870951bc7d64a650a370190dbab058e927aeb6a3bf398947497ae8e1750a3b52cbcdf751d5d9b6a78896313d342d16cbe204613703bb1'

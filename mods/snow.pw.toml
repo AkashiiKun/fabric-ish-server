@@ -1,6 +1,6 @@
 filename = 'snow-3.0.1+26.3-fabric.jar'
 name = 'Snow'
-side = 'server'
+side = 'both'
 
 [download]
 hash = '13e68cbac2fb8924df8f1d482f4cb5310770a95a3131ec7c9d138b555967839eb8050042766e87aecfc733800bd91a797204fb7ab7c9a956a4f1c3842b7b5e7c'

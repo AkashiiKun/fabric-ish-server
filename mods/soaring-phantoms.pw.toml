@@ -1,6 +1,6 @@
 filename = 'soaring_phantoms-fabric-1.2.9+26.3.jar'
 name = 'Soaring Phantoms'
-side = 'server'
+side = 'both'
 
 [download]
 hash = 'da31d92d329e425b7a63e99fdf0c35039d274b6f78f41456527fcd52a07aabc266c0a51f73c8c624df3b54fbfae11ada13603b1e48a441a4e9f08bf835a07704'
