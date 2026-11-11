@@ -49,10 +49,6 @@ file = "mods/better-stats.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/biomes-o-plenty.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/blockus.pw.toml"
 metafile = true
 
@@ -110,6 +106,10 @@ metafile = true
 
 [[files]]
 file = "mods/clientsort.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/clifftree.pw.toml"
 metafile = true
 
 [[files]]
@@ -226,10 +226,6 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-metafile = true
-
-[[files]]
-file = "mods/glitchcore.pw.toml"
 metafile = true
 
 [[files]]

@@ -1,0 +1,13 @@
+filename = 'clifftree-4.0.1-fabric-26.3.jar'
+name = 'CliffTree'
+side = 'both'
+
+[download]
+hash = '1df4568c2bd0970e2eda23ad495f450e80b64eb0b9e6dd39326a527334029ff3f3c139f806c4f86c154d2491c5e048febeacb196ad548496d22e69f74970eff9'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/59ypHk8x/versions/MxaWE4hA/clifftree-4.0.1-fabric-26.3.jar'
+
+[update.modrinth]
+mod-id = '59ypHk8x'
+version = 'MxaWE4hA'
