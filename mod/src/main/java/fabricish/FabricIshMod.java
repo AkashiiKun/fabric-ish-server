@@ -21,6 +21,8 @@ public class FabricIshMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric-ish world!");
 
+		LogNoise.install();
+
         FabricIshBlocks.initialize();
         FabricIshItems.register();
 

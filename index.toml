@@ -413,6 +413,10 @@ file = "mods/naturalist.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/neruina.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/netherportalfix.pw.toml"
 metafile = true
 
