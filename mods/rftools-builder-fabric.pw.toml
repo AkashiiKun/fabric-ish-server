@@ -1,0 +1,13 @@
+name = "RFTools Builder (Fabric)"
+filename = "rftoolsbuilder-fabric-26.3-26.3-7.0.7.3.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ad78f5c86de7f344993a62c6578669928a27e48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9294381
+project-id = 1740176

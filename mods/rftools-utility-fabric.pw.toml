@@ -1,0 +1,13 @@
+name = "RFTools Utility (Fabric)"
+filename = "rftoolsutility-fabric-26.3-26.3-7.0.13.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "640b9bee137845dea378d583a4c95fe1f5f47478"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9202135
+project-id = 1724678

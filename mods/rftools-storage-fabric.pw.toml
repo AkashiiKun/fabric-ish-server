@@ -1,0 +1,13 @@
+name = "RFTools Storage (Fabric)"
+filename = "rftoolsstorage-fabric-26.3-26.3-6.0.5.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "1ad6f49179222de0bbae6facd2f766b2f8a67f63"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 9182681
+project-id = 1742084
