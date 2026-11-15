@@ -285,10 +285,6 @@ file = "mods/immediatelyfast.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/incendium.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/indypets.pw.toml"
 metafile = true
 
@@ -413,11 +409,19 @@ file = "mods/mixson.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/mns-moogs-nether-structures.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/modernfix-mvus.pw.toml"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/moogs-structure-lib.pw.toml"
 metafile = true
 
 [[files]]
