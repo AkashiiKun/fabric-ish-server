@@ -101,10 +101,6 @@ file = "mods/chalk-mod.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/chat-heads.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/chatanimation.pw.toml"
 metafile = true
 
@@ -449,10 +445,6 @@ file = "mods/my-nethers-delight-refabricated.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/name-colors.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/nanite-library.pw.toml"
 metafile = true
 
@@ -670,6 +662,10 @@ metafile = true
 
 [[files]]
 file = "mods/structure-layout-optimizer.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/styled-chat.pw.toml"
 metafile = true
 
 [[files]]
