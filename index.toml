@@ -533,6 +533,10 @@ file = "mods/resourceful-config.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/respawning-animals.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/rftools-base-fabric.pw.toml"
 metafile = true
 
