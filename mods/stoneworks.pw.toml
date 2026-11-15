@@ -1,13 +1,13 @@
-filename = 'stoneworks-v26.3.3-mc26.3.x+fabric.jar'
+filename = 'stoneworks-v26.3.4-mc26.3.x+fabric.jar'
 name = 'Stoneworks'
 side = 'both'
 
 [download]
-hash = '5707eb1d1db37f588ed84b97776deece8f2d4b17d9ec50a0e00a6cf051b52c54acad9a63bc5abacd3ae0fc62c35f15b31bd7793d3705537e1e32fdacf4900895'
+hash = 'cd0e77216a7f83d7c009e7da79f35b66d03f6c9b2a4f790667ec2b3fde83c40ed553ccc62a45a443494033619d9963a9ee2d43797718827ba6076e63b9514396'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/FzyTKtVF/versions/5zKAxhyO/stoneworks-v26.3.3-mc26.3.x%2Bfabric.jar'
+url = 'https://cdn.modrinth.com/data/FzyTKtVF/versions/WC5MX8kL/stoneworks-v26.3.4-mc26.3.x%2Bfabric.jar'
 
 [update.modrinth]
 mod-id = 'FzyTKtVF'
-version = '5zKAxhyO'
+version = 'WC5MX8kL'
