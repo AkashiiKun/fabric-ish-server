@@ -37,6 +37,7 @@ services:
       DIFFICULTY: "${MC_DIFFICULTY:-normal}"
       ENABLE_WHITELIST: "${MC_WHITELIST:-true}"
       ENFORCE_WHITELIST: "true"
+      SPAWN_PROTECTION: "${SPAWN_PROTECTION:-0}"
       OPS: "${MC_OPS:-}"
       # No RCON: whitelist/ops sync and pack updates run inside the server (holiday mod).
       ENABLE_RCON: "false"
