@@ -37,6 +37,8 @@ services:
       DIFFICULTY: "${MC_DIFFICULTY:-normal}"
       ENABLE_WHITELIST: "${MC_WHITELIST:-true}"
       ENFORCE_WHITELIST: "true"
+      # Every .zip in ./datapacks is copied into the world's datapacks folder on each start.
+      DATAPACKS: "/datapacks"
       SPAWN_PROTECTION: "${SPAWN_PROTECTION:-0}"
       OPS: "${MC_OPS:-}"
       # No RCON: whitelist/ops sync and pack updates run inside the server (holiday mod).
@@ -55,6 +57,7 @@ services:
       # Pack config (c2me.toml, vss-server-config.yaml, streamsreflowing.properties, ...), enforced
       # on every start. Add a file to config/ in the repo and the server uses it after a restart.
       - ./config:/config:ro
+      - ./datapacks:/datapacks:ro
       # Server config files from the repo, mounted read-only one by one: the container always
       # sees exactly the repo version, nothing is copied or merged. (whitelist.json and
       # ops.json are synced by the holiday mod from WHITELIST_URL / OPS_URL.)
