@@ -593,10 +593,6 @@ file = "mods/signed-paintings.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/simple-fishing-overhaul.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/simple-voice-chat.pw.toml"
 metafile = true
 
