@@ -1,13 +1,13 @@
-filename = 'StreamsReflowing-26.3-fabric-2.17.4.jar'
+filename = 'StreamsReflowing-26.3-fabric-2.17.5.jar'
 name = 'Streams Reflowing'
 side = 'both'
 
 [download]
-hash = '9b7a454494083414ac374befcf5b768e4a39e6a83f356ee5b1ef01660f2a9c41a18be45e7257b3dc5719b620a7fbbdc6a61f74cc0c0ebb4c50f34520de255902'
+hash = 'c0fabf42aa003df41e8da43bab8b1f4aae0bc7e877c6bdb4626b5635af221444ef70a447e250e5270907ba567d9640ce6ff626db0fbf46cdfd03b0fcf7af78bb'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/oLS8HdJ1/versions/bCo0FATq/StreamsReflowing-26.3-fabric-2.17.4.jar'
+url = 'https://cdn.modrinth.com/data/oLS8HdJ1/versions/NGBAwGh3/StreamsReflowing-26.3-fabric-2.17.5.jar'
 
 [update.modrinth]
 mod-id = 'oLS8HdJ1'
-version = 'bCo0FATq'
+version = 'NGBAwGh3'
