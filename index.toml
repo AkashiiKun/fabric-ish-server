@@ -665,6 +665,10 @@ file = "mods/styled-chat.pw.toml"
 metafile = true
 
 [[files]]
+file = "mods/styled-nicknames.pw.toml"
+metafile = true
+
+[[files]]
 file = "mods/supermartijn642s-config-lib.pw.toml"
 metafile = true
 
